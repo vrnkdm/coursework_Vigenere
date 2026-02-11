@@ -51,14 +51,6 @@ public class Mainwindow extends JFrame {
         JFrame EncryptionFrame = new Encryption();
         EncryptionFrame.setVisible(true);
     }
-    /*private void TestWindow() {
-        JFrame TestFrame = new Test();
-        TestFrame.setVisible(true);
-    }
-    private void LabWindow() {
-        JFrame LabFrame = new Lab();
-        LabFrame.setVisible(true);
-    }*/
 }
 
 
@@ -149,4 +141,5 @@ class Picture extends Canvas {
         EncryptionFrame.setVisible(true);
     }
 }
+
 
