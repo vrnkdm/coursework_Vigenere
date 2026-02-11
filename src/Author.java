@@ -32,26 +32,6 @@ public class Author extends JFrame {
         mainMenuItem.addActionListener(_ -> showMainwindow());
         courseMenuItem.addActionListener(_ -> showCourse());
         encryptionMenuItem.addActionListener(_ -> EncryptionWindow());
-
-        //JPanel buttonPanel = new JPanel();
-       // buttonPanel.setLayout(new FlowLayout(FlowLayout.CENTER)); // Центрування кнопки
-       //JButton button1 = new JButton("Анімація");
-        //JButton button2 = new JButton("ЛР 6");
-        //button1.setPreferredSize(new Dimension(150, 55));//розмір кнопки
-       // button2.setPreferredSize(new Dimension(150, 55));//розмір кнопки
-        //buttonPanel.setBackground(new Color(204, 255, 255));
-       // buttonPanel.add(button1);
-       // buttonPanel.add(button2);
-       // Font buttonFont = new Font("Time New Romans", Font.BOLD, 20);//розмір напису на кнопці
-       // button1.setFont(buttonFont);
-        //button2.setFont(buttonFont);
-        // + панель з кнопкою внизу
-       // add(buttonPanel, BorderLayout.SOUTH);
-       // button1.setBackground(new Color (204, 204, 255));
-       // button2.setBackground(new Color (204, 204, 255));
-        // обробка кнопки
-        //button1.addActionListener(e ->new Test());
-        //button2.addActionListener(e ->new Lab());
     }
     private void showMainwindow() {
         JFrame MainwindowFrame = new Mainwindow();
@@ -88,3 +68,4 @@ class Pictures extends Canvas{
         gr.drawString("Група: 1БКС-23б",(getWidth()-l)/2-60,getHeight()/2+180);
     }
         }
+
